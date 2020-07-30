@@ -13,4 +13,7 @@ while True:
 
 print(products)
 
-products[0][0] #products中的第0格中 的第0格 (2維)
+#products[0][0] #products中的第0格中 的第0格 (2維)
+
+for p in products:
+	print(p[0], '的價格是', p[1])
